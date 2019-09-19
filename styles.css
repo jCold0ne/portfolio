@@ -50,12 +50,15 @@ body {
     background:url(./images/plant1.jpg) no-repeat center center/cover; 
 }
 
+.showcase.blog:before {
+    background:url(./images/plant2.jpg) no-repeat center center/cover;
+}
 .showcase.projects:before {
-    background:url(./images/projects1.jpg) no-repeat center center/cover;
+    background:url(./images/projects5.jpg) no-repeat center center/cover;
 }
 
 .showcase.contact:before {
-    background:url(./images/contact3.jpg) no-repeat center center/cover;
+    background:url(./images/contact5.jpg) no-repeat center center/cover;
 }
 
 .showcase .showcase-inner {
@@ -82,11 +85,11 @@ body {
 }
 
 .about-p {
-    color: red;
+    text-align: left;
 }
 
 .projects-p {
-    color: teal;
+    text-align: left
 }
 
 .contact-p {
