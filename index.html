@@ -8,6 +8,12 @@
     <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="menu.css" />
     <link rel="normalize" href="normalize.css" />
+    <script src="https://kit.fontawesome.com/f7d69b9fb0.js"></script>
+    <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous">
+  </script>
     <title>Luuuke</title>
 </head>
 <body>
@@ -37,5 +43,28 @@
         </div>
     </header>
 
+    <div class="socials">
+        <a class="btn" href="https://www.linkedin.com/in/luke-pierson-3a022b153/">
+            <i class="fab fa-linkedin"></i>
+        </a>
+        <a class="btn" href="https://github.com/jCold0ne">
+                <i class="fab fa-github-square"></i>
+        </a>
+        <a class="btn" href="#">
+                <i class="fab fa-slack"></i>
+        </a>
+    </div> 
+
+    <div class="loader-wrapper">
+            <span class="loader"><span class="loader-inner"></span></span>
+          </div>
+          <script>
+              $(window).on("load",function(){
+                  setTimeout(() => {
+                $(".loader-wrapper").fadeOut("slow");
+              }, 1500);
+            });
+          </script>
+    
 </body>
 </html>
