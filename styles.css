@@ -48,7 +48,7 @@ section {
     position: relative;
 }
 
-/* BACKGROUND IMAGES */
+/* Background Images */
 
 .showcase:before {
     content: '';
@@ -94,8 +94,10 @@ section {
 }
 
 .showcase.contact:before {
-    background:url(./images/mic1.jpg) no-repeat center center/cover;
+    background:url(./images/contact5.jpg) no-repeat center center/cover;
 }
+
+/* heading and text layout on each page */
 
 .showcase .showcase-inner {
     display: flex;
@@ -124,6 +126,9 @@ section {
     text-align: left;
 }
 
+.blog-p {
+    text-align: left;
+}
 .projects-p {
     text-align: left
 }
