@@ -65,6 +65,46 @@ section {
     background:url(./images/plant1.jpg) no-repeat center center/cover; 
 }
 
+.showcase.about1:before {
+    background:url(./images/mint.jpg) no-repeat center center/cover;
+}
+
+.showcase.about2:before {
+    background:url(./images/fern.jpg) no-repeat center center/cover;
+}
+
+.showcase.about3:before {
+    background:url(./images/pineapple.jpg) no-repeat center center/cover;
+}
+
+.showcase.about4:before {
+    background:url(./images/dark1.jpg) no-repeat center center/cover;
+}
+
+.showcase.about5:before {
+    background:url(./images/uw.jpg) no-repeat center center/cover;
+}
+
+.showcase.about6:before {
+    background:url(./images/dark2.jpg) no-repeat center center/cover;
+}
+
+.showcase.about7:before {
+    background:url(./images/dark5.jpg) no-repeat center center/cover;
+}
+
+.showcase.about8:before {
+    background:url(./images/dark6.jpg) no-repeat center center/cover;
+}
+
+.showcase.darkness:before {
+    background:url(./images/black.jpg) no-repeat center center/cover;
+}
+
+.showcase.hc:before {
+    background:url(./images/hc.jpg) no-repeat center center/cover;
+}
+
 .showcase.blog:before {
     background:url(./images/plant2.jpg) no-repeat center center/cover;
 }
@@ -78,7 +118,7 @@ section {
 }
 
 .showcase.blog3:before {
-    background:url(./images/projects1.jpg) no-repeat center center/cover;
+    background:url(./images/scape1.jpg) no-repeat center center/cover;
 }
 
 .showcase.blog4:before {
@@ -108,22 +148,31 @@ section {
     height: 100%;
 }
 
-/* h1 */
+/* headings */
 
 .showcase h1 {
     font-size: 4rem;
+}
+
+.showcase h3 {
+    /* font-family: 'Raleway', 'sans serif'; */
+    font-size: 1.13rem;
+    font-kerning: unset;
 }
 
 
 
 /* Paragraphs */
 
-.showcase p {
-    font-size: 1.3rem;
+.showcase .home-p {
+    font-size: 0.95rem;
+    position: absolute;
+    top: 72%;
 }
 
 .about-p {
-    text-align: left;
+    position: absolute;
+    top: 59%;
 }
 
 .blog-p {
