@@ -17,7 +17,22 @@ body, html {
 body {
     font-family: 'Montserrat', sans-serif;
     line-height: 1.4;
+/* scroll-snap  */
+    scroll-snap-type: mandatory;
+    scroll-snap-points-y: repeat(100vh);
+    scroll-snap-type: y mandatory;
 }
+
+
+section {
+    /* border-bottom: 1px solid white; */
+    height: 100vh;
+    scroll-snap-align: start;
+    text-align: center;
+    position: relative;
+}
+
+/* scrol-snap end  */
 
 .container {
     max-width: 960px;
@@ -53,12 +68,33 @@ body {
 .showcase.blog:before {
     background:url(./images/plant2.jpg) no-repeat center center/cover;
 }
+
+.showcase.blog1:before {
+    background:url(./images/projects3.jpg) no-repeat center center/cover;
+}
+
+.showcase.blog2:before {
+    background:url(./images/bg2.jpg) no-repeat center center/cover;
+}
+
+.showcase.blog3:before {
+    background:url(./images/projects1.jpg) no-repeat center center/cover;
+}
+
+.showcase.blog4:before {
+    background:url(./images/projects4.jpg) no-repeat center center/cover;
+}
+
+.showcase.blog5:before {
+    background:url(./images/plant3.jpg) no-repeat center center/cover;
+}
+
 .showcase.projects:before {
     background:url(./images/projects5.jpg) no-repeat center center/cover;
 }
 
 .showcase.contact:before {
-    background:url(./images/contact5.jpg) no-repeat center center/cover;
+    background:url(./images/mic1.jpg) no-repeat center center/cover;
 }
 
 .showcase .showcase-inner {
