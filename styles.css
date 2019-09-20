@@ -23,7 +23,6 @@ body {
     scroll-snap-type: y mandatory;
 }
 
-
 section {
     /* border-bottom: 1px solid white; */
     height: 100vh;
@@ -70,7 +69,7 @@ section {
 }
 
 .showcase.about2:before {
-    background:url(./images/fern.jpg) no-repeat center center/cover;
+    background:url(./images/scape2.jpg) no-repeat center center/cover;
 }
 
 .showcase.about3:before {
@@ -82,7 +81,7 @@ section {
 }
 
 .showcase.about5:before {
-    background:url(./images/uw.jpg) no-repeat center center/cover;
+    background:url(./images/dark3.jpg) no-repeat center center/cover;
 }
 
 .showcase.about6:before {
@@ -101,8 +100,8 @@ section {
     background:url(./images/black.jpg) no-repeat center center/cover;
 }
 
-.showcase.hc:before {
-    background:url(./images/hc.jpg) no-repeat center center/cover;
+.showcase.hcbg:before {
+    background:url(./images/hotchoc.jpg) no-repeat center center/cover;
 }
 
 .showcase.blog:before {
@@ -133,6 +132,10 @@ section {
     background:url(./images/projects5.jpg) no-repeat center center/cover;
 }
 
+.showcase.awards:before {
+    background:url(./images/achievement.jpg) no-repeat center center/cover;
+}
+
 .showcase.contact:before {
     background:url(./images/contact5.jpg) no-repeat center center/cover;
 }
@@ -160,19 +163,34 @@ section {
     font-kerning: unset;
 }
 
-
+.showcase ul {
+    text-align: left;
+}
 
 /* Paragraphs */
 
 .showcase .home-p {
-    font-size: 0.95rem;
-    position: absolute;
-    top: 72%;
+    font-size: 1rem;
+    position: relative;
+    top: 1.5%;
 }
 
 .about-p {
     position: absolute;
     top: 59%;
+    text-align: left;
+}
+
+.about-p1 {
+    position: absolute;
+    top: 63%;
+    text-align: left;
+}
+
+.about-p2 {
+    position: absolute;
+    top: 72%;
+    text-align: left;
 }
 
 .blog-p {
@@ -184,6 +202,55 @@ section {
 
 .contact-p {
     text-align: left; 
+}
+
+/* box of hot chocolate */
+
+.hcbox {
+    position: absolute;
+    bottom: 16.7%;
+    transform: translateY(-50%);
+    width: 100%;
+    text-align: center;
+    z-index: 1
+}
+
+.hc {
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0);
+    color: #fff;
+    padding: 1em 1.5em;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 129px;
+    height: 80px;
+    margin: 10px;
+    border-radius: 30%;
+    box-shadow: 0 5px 15px -5px #00000070; 
+    overflow: hidden;
+    position: relative; 
+    top: 10%;
+}
+
+.darkbox {
+    left: 0%;
+}
+
+.hc::before {
+    content: "";
+    position: absolute;
+    width: 190px; 
+    height: 120%;
+    background:  rgba(82, 82, 204, 0.74);
+    transform:  rotate(26deg); 
+    left: -110%;
+    top: 90%;
+}
+
+.hc:hover::before {
+    animation: wave 0.7s 1;
+    top: -10%;
+    left: -10%;
 }
 
 /* Socials */
