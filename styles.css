@@ -51,7 +51,7 @@ section {
 
 .showcase:before {
     content: '';
-    background:url(./images/scape3.jpg) no-repeat center center/cover; 
+    background:url(./images/bg1.jpg) no-repeat center center/cover; 
     position: absolute;
     top: 0;
     left: 0;
@@ -109,23 +109,23 @@ section {
 }
 
 .showcase.blog1:before {
-    background:url(./images/projects3.jpg) no-repeat center center/cover;
-}
-
-.showcase.blog2:before {
-    background:url(./images/bg2.jpg) no-repeat center center/cover;
-}
-
-.showcase.blog3:before {
     background:url(./images/scape1.jpg) no-repeat center center/cover;
 }
 
+.showcase.blog2:before {
+    background:url(./images/scape2.jpg) no-repeat center center/cover;
+}
+
+.showcase.blog3:before {
+    background:url(./images/scape3.jpg) no-repeat center center/cover;
+}
+
 .showcase.blog4:before {
-    background:url(./images/projects4.jpg) no-repeat center center/cover;
+    background:url(./images/scape4.jpg) no-repeat center center/cover;
 }
 
 .showcase.blog5:before {
-    background:url(./images/plant3.jpg) no-repeat center center/cover;
+    background:url(./images/scape5.jpg) no-repeat center center/cover;
 }
 
 .showcase.projects:before {
