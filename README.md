@@ -52,9 +52,17 @@ The third feature is the loading animation which will continue to play until the
 It's a small feature which can have a tremendemous effect as users don't want to wait and watch a website load they just want to use the completed result. It's like the red curtains at a theatre - the production company doesn't want the audience to see the set-up they just want them to see the show. 
 
 #####Sitemap
+[]https://github.com/jCold0ne/portfolio/blob/master/sitemap.png
 
 
+#####Target Audience
+To be honest, just me for now. In the future, however, this will be for me, my personal brand and <b>potential employers.</b> Until I am ready, refined, a level 99 blastoise worthy of the "Full Stack Developer" tital this site is staying on the down-low. But to answer the target audience question: employers, start-ups, anyone looking for fresh developer talent.
 
+![image](https://user-images.githubusercontent.com/54294715/65376363-49c6dd80-dce2-11e9-9c7a-374282648c95.png)
+incase you don't know - blastoise is the one on the far right. but like you should know... just sayin. 
+
+#####Tech Stack
+html, css, javascript, jquery - deployed on netlify. 
 
 
 
